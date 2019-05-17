@@ -1,0 +1,1 @@
+Folder suited for all CAM aoutput files.
