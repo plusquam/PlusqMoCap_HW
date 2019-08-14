@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -35,8 +35,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -51,13 +51,13 @@
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -78,20 +78,20 @@
 <package name="INDPM2622X120N">
 <description>&lt;b&gt;SRN2512_2&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-1.05" y="0" dx="2.25" dy="1.65" layer="1" rot="R90" />
-<smd name="2" x="1.05" y="0" dx="2.25" dy="1.65" layer="1" rot="R90" />
-<text x="0" y="0" align="center" size="1.27" layer="25" rot="R0">&gt;NAME</text>
-<text x="0" y="0" align="center" size="1.27" layer="27" rot="R0">&gt;VALUE</text>
-<wire x1="-2.125" y1="1.425" x2="2.125" y2="1.425" width="0.05" layer="51" />
-<wire x1="2.125" y1="1.425" x2="2.125" y2="-1.425" width="0.05" layer="51" />
-<wire x1="2.125" y1="-1.425" x2="-2.125" y2="-1.425" width="0.05" layer="51" />
-<wire x1="-2.125" y1="-1.425" x2="-2.125" y2="1.425" width="0.05" layer="51" />
-<wire x1="-1.275" y1="1.075" x2="1.275" y2="1.075" width="0.1" layer="51" />
-<wire x1="1.275" y1="1.075" x2="1.275" y2="-1.075" width="0.1" layer="51" />
-<wire x1="1.275" y1="-1.075" x2="-1.275" y2="-1.075" width="0.1" layer="51" />
-<wire x1="-1.275" y1="-1.075" x2="-1.275" y2="1.075" width="0.1" layer="51" />
-<wire x1="1.275" y1="1.075" x2="-1.275" y2="1.075" width="0.2" layer="21" />
-<wire x1="-1.275" y1="-1.075" x2="1.275" y2="-1.075" width="0.2" layer="21" />
+<smd name="1" x="-1.05" y="0" dx="2.25" dy="1.65" layer="1" rot="R90"/>
+<smd name="2" x="1.05" y="0" dx="2.25" dy="1.65" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.125" y1="1.425" x2="2.125" y2="1.425" width="0.05" layer="51"/>
+<wire x1="2.125" y1="1.425" x2="2.125" y2="-1.425" width="0.05" layer="51"/>
+<wire x1="2.125" y1="-1.425" x2="-2.125" y2="-1.425" width="0.05" layer="51"/>
+<wire x1="-2.125" y1="-1.425" x2="-2.125" y2="1.425" width="0.05" layer="51"/>
+<wire x1="-1.275" y1="1.075" x2="1.275" y2="1.075" width="0.1" layer="51"/>
+<wire x1="1.275" y1="1.075" x2="1.275" y2="-1.075" width="0.1" layer="51"/>
+<wire x1="1.275" y1="-1.075" x2="-1.275" y2="-1.075" width="0.1" layer="51"/>
+<wire x1="-1.275" y1="-1.075" x2="-1.275" y2="1.075" width="0.1" layer="51"/>
+<wire x1="1.275" y1="1.075" x2="-1.275" y2="1.075" width="0.2" layer="21"/>
+<wire x1="-1.275" y1="-1.075" x2="1.275" y2="-1.075" width="0.2" layer="21"/>
 </package>
 <package name="DIOM5436X244N">
 <description>&lt;b&gt;DO-214AA (SMB)&lt;/b&gt;&lt;br&gt;
@@ -198,17 +198,39 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <smd name="C" x="-2.025" y="0" dx="1.8" dy="2.4" layer="1"/>
 <smd name="A" x="2.025" y="0" dx="1.8" dy="2.4" layer="1" rot="R180"/>
 </package>
+<package name="1-2178712-0">
+<smd name="P$1" x="-5.715" y="2.286" dx="3.048" dy="1.524" layer="1" rot="R90"/>
+<smd name="P$2" x="-4.445" y="-2.286" dx="3.048" dy="1.524" layer="1" rot="R90"/>
+<smd name="P$3" x="-3.175" y="2.286" dx="3.048" dy="1.524" layer="1" rot="R90"/>
+<smd name="P$4" x="-1.905" y="-2.286" dx="3.048" dy="1.524" layer="1" rot="R90"/>
+<smd name="P$5" x="-0.635" y="2.286" dx="3.048" dy="1.524" layer="1" rot="R90"/>
+<smd name="P$6" x="0.635" y="-2.286" dx="3.048" dy="1.524" layer="1" rot="R90"/>
+<smd name="P$7" x="1.905" y="2.286" dx="3.048" dy="1.524" layer="1" rot="R90"/>
+<smd name="P$8" x="3.175" y="-2.286" dx="3.048" dy="1.524" layer="1" rot="R90"/>
+<smd name="P$9" x="4.445" y="2.286" dx="3.048" dy="1.524" layer="1" rot="R90"/>
+<smd name="P$10" x="5.715" y="-2.286" dx="3.048" dy="1.524" layer="1" rot="R90"/>
+<wire x1="-7.112" y1="-2.667" x2="7.62" y2="-2.667" width="0.127" layer="21"/>
+<wire x1="-7.112" y1="-2.667" x2="-7.112" y2="2.794" width="0.127" layer="21"/>
+<wire x1="-7.112" y1="2.794" x2="7.62" y2="2.794" width="0.127" layer="21"/>
+<text x="-7.366" y="-2.54" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
+<text x="8.636" y="-2.54" size="0.6096" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="7.62" y1="2.794" x2="7.62" y2="1.524" width="0.127" layer="21"/>
+<wire x1="7.62" y1="1.524" x2="7.112" y2="1.524" width="0.127" layer="21"/>
+<wire x1="7.112" y1="1.524" x2="7.112" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="7.112" y1="-1.27" x2="7.62" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-1.27" x2="7.62" y2="-2.667" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SRN2512-2R2M">
-<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4" />
-<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4" />
-<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4" />
-<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4" />
-<text x="16.51" y="6.35" align="center-left" size="1.778" layer="95">&gt;NAME</text>
-<text x="16.51" y="3.81" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle" direction="io" rot="R0" />
-<pin name="2" x="20.32" y="0" visible="pad" length="middle" direction="io" rot="R180" />
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<text x="16.51" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
 <symbol name="VS-10BQ015-M3_5BT">
 <wire x1="5.08" y1="0" x2="10.16" y2="2.54" width="0.254" layer="94"/>
@@ -273,28 +295,46 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <pin name="A" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
 <pin name="C" x="0" y="2.54" visible="off" length="point" direction="pas" rot="R270"/>
 </symbol>
+<symbol name="1-2178712-0">
+<pin name="P$1" x="-11.43" y="9.144" visible="pin" length="middle" rot="R270"/>
+<pin name="P$2" x="-8.89" y="9.144" visible="pin" length="middle" rot="R270"/>
+<pin name="P$3" x="-6.35" y="9.144" visible="pin" length="middle" rot="R270"/>
+<pin name="P$4" x="-3.81" y="9.144" visible="pin" length="middle" rot="R270"/>
+<pin name="P$5" x="-1.27" y="9.144" visible="pin" length="middle" rot="R270"/>
+<pin name="P$6" x="1.27" y="9.144" visible="pin" length="middle" rot="R270"/>
+<pin name="P$7" x="3.81" y="9.144" visible="pin" length="middle" rot="R270"/>
+<pin name="P$8" x="6.35" y="9.144" visible="pin" length="middle" rot="R270"/>
+<pin name="P$9" x="8.89" y="9.144" visible="pin" length="middle" rot="R270"/>
+<pin name="P$10" x="11.43" y="9.144" visible="pin" length="middle" rot="R270"/>
+<wire x1="-13.97" y1="4.064" x2="13.97" y2="4.064" width="0.254" layer="97"/>
+<wire x1="13.97" y1="4.064" x2="13.97" y2="-3.556" width="0.254" layer="97"/>
+<wire x1="13.97" y1="-3.556" x2="-13.97" y2="-3.556" width="0.254" layer="97"/>
+<wire x1="-13.97" y1="-3.556" x2="-13.97" y2="4.064" width="0.254" layer="97"/>
+<text x="-13.97" y="-6.096" size="1.778" layer="95">&gt;NAME</text>
+<text x="3.81" y="-6.096" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SRN2512-2R2M" prefix="L">
 <description>&lt;b&gt;Bourns SRN2512 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 2.2 uH +/-20% 2.3A Idc&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SRN2512-2R2M.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="SRN2512-2R2M" x="0" y="0" />
+<gate name="G$1" symbol="SRN2512-2R2M" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="INDPM2622X120N">
 <connects>
-<connect gate="G$1" pin="1" pad="1" />
-<connect gate="G$1" pin="2" pad="2" />
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="Mouser_Part_Number" value="652-SRN2512-2R2M" constant="no" />
-<attribute name="Mouser_Price-Stock" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-SRN2512-2R2M" constant="no" />
-<attribute name="Manufacturer_Name" value="Bourns" constant="no" />
-<attribute name="Manufacturer_Part_Number" value="SRN2512-2R2M" constant="no" />
-<attribute name="Description" value="Bourns SRN2512 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 2.2 uH +/-20% 2.3A Idc" constant="no" />
-<attribute name="Height" value="1.2mm" constant="no" />
+<attribute name="DESCRIPTION" value="Bourns SRN2512 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 2.2 uH +/-20% 2.3A Idc" constant="no"/>
+<attribute name="HEIGHT" value="1.2mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SRN2512-2R2M" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-SRN2512-2R2M" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-SRN2512-2R2M" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -407,6 +447,30 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP73831T-2AC
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1-2178711-2" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="1-2178712-0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1-2178712-0">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$10" pad="P$10"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
+<connect gate="G$1" pin="P$7" pad="P$7"/>
+<connect gate="G$1" pin="P$8" pad="P$8"/>
+<connect gate="G$1" pin="P$9" pad="P$9"/>
 </connects>
 <technologies>
 <technology name=""/>
