@@ -11210,7 +11210,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="83.82" y="175.26" size="1.778" layer="97">Step-Down 5V - 3V</text>
+<text x="83.82" y="175.26" size="1.778" layer="97">Step-Down 5V - 3.3V</text>
 <wire x1="78.74" y1="180.34" x2="78.74" y2="124.46" width="0.1524" layer="97" style="longdash"/>
 <wire x1="78.74" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="97" style="longdash"/>
 <wire x1="187.96" y1="124.46" x2="187.96" y2="180.34" width="0.1524" layer="97" style="longdash"/>
@@ -11233,6 +11233,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="185.42" y1="71.12" x2="185.42" y2="116.84" width="0.1524" layer="97" style="longdash"/>
 <wire x1="185.42" y1="116.84" x2="152.4" y2="116.84" width="0.1524" layer="97" style="longdash"/>
 <text x="153.416" y="114.3" size="1.778" layer="97">MPU-9250</text>
+<text x="119.38" y="111.76" size="1.9304" layer="97">Buffer and connector</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="-20.32" y="144.78" smashed="yes"/>
